@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<title>Foo</title>
+
+<script src="lib/require.js"></script>
+<script src="lib/require.conf.js"></script>
+<script>
+  require(['cs!src/foo'], function (Foo) {
+    new Foo();
+  });
+</script>
