@@ -18,7 +18,8 @@ define ['underscore'], (_) ->
       obj
 
     findValue: (str, obj) ->
-      obj.value = 100
+      arr = str.match /(\d)+/
+      obj.value = arr[0] if arr?.length
 
     findFrom: (str, obj) ->
       @findProp str, obj, 'from'
