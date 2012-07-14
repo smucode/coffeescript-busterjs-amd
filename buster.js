@@ -5,7 +5,8 @@ module.exports['browser'] = {
     'lib/require.conf.js'
   ],
   resources: [
-    'lib/*.js'
+    'lib/cs.js',
+    'lib/coffee-script.js'
   ],
   sources: [
     'src/*.coffee'
