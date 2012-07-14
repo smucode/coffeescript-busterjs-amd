@@ -6,7 +6,7 @@ define ['cs!../src/annotator'], (Annotator) ->
 
     'should explain what to do when nothing has been entered': ->
       msg = a.annotate()
-      assert.equals msg, 'Ask me to convert something :)'
+      assert.equals msg, 'Ask me to convert something!'
     
     'should convert ms to kmh': ->
       msg = a.annotate 'convert 10 ms to kmh'

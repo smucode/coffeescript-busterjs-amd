@@ -10,7 +10,7 @@ define ['cs!./parser', 'cs!./converter'], (Parser, Converter) ->
       @c = new Converter
 
     annotate: (str) ->
-      return "Ask me to convert something :)" unless str
+      return "Ask me to convert something!" unless str
 
       obj = @p.parse str
 
