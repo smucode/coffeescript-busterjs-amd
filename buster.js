@@ -2,7 +2,7 @@ module.exports['browser'] = {
   environment: 'browser',
   libs: [
     'lib/require.js',
-    'lib/require.conf.js'
+    'conf/require.js'
   ],
   resources: [
     'lib/cs.js',
