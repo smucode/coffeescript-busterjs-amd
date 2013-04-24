@@ -1,0 +1,8 @@
+{
+  "name": "coffeescript-busterjs-amd",
+  "version": "0.0.1",
+  "author": "Stig Murberg <m@smuco.de>",
+  "dependencies": {
+    "buster-amd": "~0.3.0"
+  }
+}
